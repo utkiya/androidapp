@@ -1,0 +1,33 @@
+<!--
+  ~ Copyright (C) 2024 Alexandre Gomes Pereira
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="69dp"
+    android:height="88dp"
+    android:viewportWidth="69"
+    android:viewportHeight="88">
+  <path
+      android:pathData="M56,1H12.5C11.185,7.542 8.518,9.724 1,11.5V67c1.235,4.972 3.385,6.505 7.5,9h9c5.293,7.476 8.944,9.774 16.5,11 8.622,-1.027 12.615,-2.867 16.5,-11h10c4.518,-2.738 6.025,-4.725 7,-9V11.5C60.302,9.86 57.698,7.639 56,1Z"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#000000"/>
+  <path
+      android:strokeWidth="1"
+      android:pathData="M53.143,5H15.857C14.73,10.933 12.444,12.913 6,14.523v50.338c1.059,4.509 2.902,5.9 6.429,8.162h7.714c4.536,6.78 7.666,8.865 14.143,9.977 7.39,-0.932 10.813,-2.6 14.143,-9.977H57c3.872,-2.483 5.165,-4.286 6,-8.162V14.523c-6.17,-1.486 -8.401,-3.502 -9.857,-9.523Z"
+      android:fillColor="#00000000"
+      android:strokeColor="#000000"/>
+</vector>

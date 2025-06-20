@@ -1,0 +1,30 @@
+<!--
+  ~ Copyright (C) 2024 Alexandre Gomes Pereira
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="56dp"
+    android:height="56dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+  <group>
+    <clip-path
+        android:pathData="M0,0h56v56H0z"/>
+    <path
+        android:pathData="M51.267,25.432C51.267,10.717 40.838,-0.05 28.003,0 15.17,-0.05 4.73,10.717 4.73,25.432l0.046,29.448 7.764,-3.698L20.302,56l7.742,-4.818L35.786,56l7.742,-4.818 7.743,3.7 -0.004,-29.45zM17.886,32.206a6.384,6.384 0,0 1,-4.76 -7.67l12.43,2.91a6.384,6.384 0,0 1,-7.67 4.76zM38.114,32.206a6.384,6.384 0,0 1,-7.67 -4.76l12.43,-2.91a6.384,6.384 0,0 1,-4.76 7.67z"
+        android:fillColor="#000"/>
+  </group>
+</vector>

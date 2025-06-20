@@ -1,0 +1,49 @@
+<!--
+  ~ Copyright (C) 2024 Alexandre Gomes Pereira
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Hunter.DayNight" parent="Theme.Hunter"/>
+
+    <style name="Theme.Hunter" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+
+        <item name="android:colorBackground">@color/gray_scale_100</item>
+        <item name="android:statusBarColor">@color/gray_scale_100</item>
+        <item name="android:navigationBarColor">@color/gray_scale_100</item>
+
+        <!--Styles-->
+        <item name="navigationViewStyle">@style/Widget.Hunter.NavigationView</item>
+
+        <!--System/Platform attributes-->
+        <item name="android:windowBackground">?android:colorBackground</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnPrimary">?attr/colorOnSurface</item>
+    </style>
+</resources>

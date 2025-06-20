@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS SpellUsageEntity (`spellUsageId` TEXT NOT NULL, `group` TEXT NOT NULL, `spellcastingId` TEXT NOT NULL, PRIMARY KEY(`spellUsageId`));
+
+CREATE INDEX IF NOT EXISTS index_SpellUsageEntity_spellcastingId ON SpellUsageEntity (spellcastingId);
+
+insert:
+INSERT OR REPLACE INTO SpellUsageEntity VALUES ?;
+
+deleteWithSpellcastingId:
+DELETE FROM SpellUsageEntity WHERE spellcastingId IN ?;
+
+getBySpellcastingId:
+SELECT * FROM SpellUsageEntity WHERE spellcastingId = ?;

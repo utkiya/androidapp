@@ -1,0 +1,99 @@
+/*
+ * Copyright (C) 2024 Alexandre Gomes Pereira
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'hunter'
+include ':app'
+
+include ':core:analytics'
+include ':core:event'
+include ':core:flow:test'
+include ':core:localization'
+include ':core:state-holder'
+include ':core:ui:state-recovery'
+include ':core:uuid'
+include ':core:search'
+
+include ':domain:app:core'
+include ':domain:monster:core'
+include ':domain:monster-compendium:core'
+include ':domain:alternative-source:core'
+include ':domain:monster-folder:core'
+include ':domain:monster-lore:core'
+include ':domain:settings:core'
+include ':domain:spell:core'
+include ':domain:sync:core'
+
+include ':domain:monster:event'
+
+include ':domain:app:data'
+include ':domain:alternative-source:data'
+include ':domain:monster:data'
+include ':domain:monster-folder:data'
+include ':domain:monster-lore:data'
+include ':domain:settings:data'
+include ':domain:spell:data'
+
+include ':feature:folder-detail:compose'
+include ':feature:folder-detail:event'
+include ':feature:folder-detail:state-holder'
+include ':feature:folder-insert:compose'
+include ':feature:folder-insert:event'
+include ':feature:folder-insert:state-holder'
+include ':feature:folder-list:compose'
+include ':feature:folder-list:event'
+include ':feature:folder-list:state-holder'
+include ':feature:folder-preview:compose'
+include ':feature:folder-preview:event'
+include ':feature:folder-preview:state-holder'
+include ':feature:monster-compendium:compose'
+include ':feature:monster-compendium:domain'
+include ':feature:monster-compendium:event'
+include ':feature:monster-compendium:state-holder'
+include ':feature:monster-content-manager:compose'
+include ':feature:monster-content-manager:event'
+include ':feature:monster-content-manager:state-holder'
+include ':feature:monster-detail:compose'
+include ':feature:monster-detail:state-holder'
+include ':feature:monster-lore-detail:compose'
+include ':feature:monster-lore-detail:event'
+include ':feature:monster-lore-detail:state-holder'
+include ':feature:monster-registration:compose'
+include ':feature:monster-registration:event'
+include ':feature:monster-registration:state-holder'
+include ':feature:search:compose'
+include ':feature:settings:compose'
+include ':feature:spell-detail:compose'
+include ':feature:spell-detail:event'
+include ':feature:share-content:compose'
+include ':feature:share-content:event'
+include ':feature:spell-compendium:compose'
+include ':feature:spell-compendium:event'
+include ':feature:spell-compendium:state-holder'
+include ':feature:sync:compose'
+include ':feature:sync:event'
+include ':feature:sync:state-holder'
+
+include ':ui:compendium'
+include ':ui:core'
+include ':ui:monster-compendium'

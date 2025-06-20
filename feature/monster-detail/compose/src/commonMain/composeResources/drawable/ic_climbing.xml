@@ -1,0 +1,29 @@
+<!--
+  ~ Copyright (C) 2024 Alexandre Gomes Pereira
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="56dp"
+    android:height="56dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+  <path
+      android:pathData="M55.504,23.167l-5.947,-6.53c-0.534,-0.587 -1.23,-1 -2,-1.189l-3.701,-0.905 -4.393,-4.07 -0.765,-6.85a1.865,1.865 0,0 0,-2.071 -1.654,1.873 1.873,0 0,0 -1.654,2.07l0.844,7.545c0.05,0.446 0.26,0.86 0.589,1.166l6.385,5.915 -2.618,10.832 -6.913,-0.167a2.806,2.806 0,0 0,-2.153 0.926l-6.733,7.458a2.811,2.811 0,0 0,4.172 3.767l5.87,-6.501 4.76,0.114 -2.796,3.99a2.812,2.812 0,0 0,-0.465 2.11l1.79,9.964a2.814,2.814 0,0 0,3.262 2.27,2.812 2.812,0 0,0 2.271,-3.263l-1.583,-8.813 5.134,-7.328c0.187,-0.266 0.337,-0.552 0.413,-0.857 0.666,-2.668 2.582,-10.682 2.582,-10.682l2.344,2.547 -1.132,6.8a1.873,1.873 0,1 0,3.696 0.615l1.282,-7.703a1.874,1.874 0,0 0,-0.47 -1.577z"
+      android:fillColor="#000"/>
+  <path
+      android:pathData="M45.768,13.69a4.317,4.317 0,1 0,4.844 -7.15,4.319 4.319,0 1,0 -4.844,7.15zM24.485,8.603L33.96,1.67a0.664,0.664 0,0 0,0.24 -0.74,0.666 0.666,0 0,0 -0.631,-0.457h-30.6A2.967,2.967 0,0 0,0 3.439v51.153a0.935,0.935 0,0 0,1.753 0.454L9.87,40.46c0.26,-0.466 0.452,-0.966 0.573,-1.487l2.805,-12.152a5.692,5.692 0,0 1,1.608 -2.829l4.988,-4.776a5.69,5.69 0,0 0,1.658 -3.063l0.75,-4.005a5.68,5.68 0,0 1,2.232 -3.545z"
+      android:fillColor="#000"/>
+</vector>

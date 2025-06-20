@@ -1,0 +1,26 @@
+<!--
+  ~ Copyright (C) 2024 Alexandre Gomes Pereira
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960">
+  <path
+      android:pathData="M480,838.23q-120.77,-36.54 -200.38,-147.88Q200,579 200,440.85v-213.39l280,-104.61 280,104.61v213.39q0,138.15 -79.62,249.5Q600.77,801.69 480,838.23ZM480,805.46q108.85,-34.92 179.04,-136.96t70.19,-227.65v-192.16L480,155.31l-249.23,93.38v192.16q0,125.61 70.19,227.65T480,805.46ZM480,480.77Z"
+      android:fillColor="#00000"/>
+</vector>

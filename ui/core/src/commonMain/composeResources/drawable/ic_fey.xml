@@ -1,0 +1,39 @@
+<!--
+  ~ Copyright (C) 2024 Alexandre Gomes Pereira
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <group>
+    <clip-path
+        android:pathData="M0,0h24v24H0z"/>
+    <path
+        android:pathData="M14.457,2.654c0.237,-0.185 0.433,-0.09 0.436,0.21l0.03,3.533c0.003,0.3 0.21,0.684 0.459,0.853l2.927,1.977c0.25,0.169 0.22,0.384 -0.065,0.48l-3.35,1.12c-0.286,0.096 -0.587,0.41 -0.67,0.7l-0.976,3.396c-0.083,0.289 -0.297,0.327 -0.476,0.085l-2.102,-2.84c-0.179,-0.241 -0.571,-0.43 -0.872,-0.42l-3.53,0.12c-0.301,0.011 -0.404,-0.18 -0.23,-0.426L8.09,8.566c0.175,-0.245 0.234,-0.676 0.13,-0.96l-1.205,-3.32c-0.103,-0.282 0.048,-0.44 0.334,-0.35L10.72,5c0.287,0.09 0.715,0.013 0.952,-0.172l2.786,-2.173zM15.348,0.247a0.438,0.438 0,0 1,0.788 0.38l-0.428,0.887a0.438,0.438 0,0 1,-0.788 -0.38l0.428,-0.887z"
+        android:fillColor="#000"/>
+    <path
+        android:pathData="M5.134,9.215a0.438,0.438 0,0 1,-0.207 -0.85l0.957,-0.233a0.437,0.437 0,1 1,0.206 0.85l-0.956,0.233zM8.201,1.598a0.437,0.437 0,0 1,0.777 -0.402l0.453,0.874a0.437,0.437 0,0 1,-0.777 0.402L8.2,1.598z"
+        android:fillColor="#000"/>
+    <path
+        android:pathData="M15.653,14.292a0.437,0.437 0,0 0,0.794 -0.367l-0.413,-0.893a0.437,0.437 0,1 0,-0.794 0.367l0.413,0.893zM19.709,7.153a0.438,0.438 0,0 0,-0.168 -0.859l-0.966,0.19a0.437,0.437 0,1 0,0.168 0.858l0.966,-0.189z"
+        android:fillColor="#000"/>
+    <path
+        android:pathData="M5.44,23.753a0.439,0.439 0,0 1,-0.584 0.204l-0.671,-0.324a0.439,0.439 0,0 1,-0.204 -0.584L8.894,12.87a0.439,0.439 0,0 1,0.585 -0.204l0.67,0.324a0.439,0.439 0,0 1,0.204 0.584L5.44,23.754z"
+        android:fillColor="#000"/>
+  </group>
+</vector>

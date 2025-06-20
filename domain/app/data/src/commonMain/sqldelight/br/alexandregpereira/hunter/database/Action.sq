@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS ActionEntity (`id` TEXT NOT NULL, `attackBonus` INTEGER, `description` TEXT NOT NULL, `name` TEXT NOT NULL, `monsterIndex` TEXT NOT NULL, PRIMARY KEY(`id`));
+
+CREATE INDEX IF NOT EXISTS index_ActionEntity_monsterIndex ON ActionEntity (monsterIndex);
+
+insert:
+INSERT OR REPLACE INTO ActionEntity VALUES ?;
+
+deleteWithMonsterIndex:
+DELETE FROM ActionEntity WHERE monsterIndex IN ?;
+
+getByMonterIndex:
+SELECT * FROM ActionEntity WHERE monsterIndex = ?;

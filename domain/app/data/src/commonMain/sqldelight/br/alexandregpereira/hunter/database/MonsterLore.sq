@@ -1,0 +1,27 @@
+CREATE TABLE IF NOT EXISTS MonsterLoreEntity (`monsterLoreIndex` TEXT NOT NULL, `status` INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(`monsterLoreIndex`));
+
+insert:
+INSERT OR REPLACE INTO MonsterLoreEntity VALUES ?;
+
+deleteWithIndexes:
+DELETE FROM MonsterLoreEntity WHERE monsterLoreIndex IN ? AND status == 0;
+
+getMonstersLore:
+SELECT * FROM MonsterLoreCompleteEntityView
+WHERE monsterLoreIndex IN ?
+;
+
+getMonsterLore:
+SELECT * FROM MonsterLoreCompleteEntityView WHERE monsterLoreIndex == ?;
+
+getMonstersLoreEdited:
+SELECT * FROM MonsterLoreCompleteEntityView WHERE status > 0;
+
+getOriginalMonstersLore:
+SELECT * FROM MonsterLoreCompleteEntityView WHERE status == 0;
+
+CREATE VIEW IF NOT EXISTS MonsterLoreCompleteEntityView AS
+SELECT * FROM MonsterLoreEntity
+INNER JOIN MonsterLoreEntryEntity
+ON MonsterLoreEntryEntity.monsterIndex = MonsterLoreEntity.monsterLoreIndex
+;
